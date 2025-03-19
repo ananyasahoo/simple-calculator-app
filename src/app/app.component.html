@@ -1,0 +1,15 @@
+<div class="card">
+  <br />
+  <h3 class="card-title text-center">Simple Calculator in angular</h3>
+  Input 1:<input type="number" [(ngModel)]="number1" /> Input 2:<input
+    type="number"
+    [(ngModel)]="number2"
+  />
+  <br />
+  <button class="btn btn-success" (click)="Add()">Add</button><br />
+  <button class="btn btn-danger" (click)="Subtract()">Subtract</button><br />
+  <button class="btn btn-primary" (click)="Multiply()">Multiply</button><br />
+  <button class="btn btn-info" (click)="Divide()">Divide</button>
+</div>
+<br />
+<h2>Result: {{ result }}</h2>
